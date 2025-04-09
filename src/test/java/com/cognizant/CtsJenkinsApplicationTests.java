@@ -15,7 +15,7 @@ class CtsJenkinsApplicationTests {
 	@Test
 	void contextLoads() {
 		logger.info("Test case started executing...");
-		assertEquals(true, true);
+		assertEquals(false, true);
 	}
 
 }
